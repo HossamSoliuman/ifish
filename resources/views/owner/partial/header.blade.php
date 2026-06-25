@@ -28,8 +28,9 @@
     <div class="brand">
         <a href="{{ route('owner.dashboard') }}" class="brand-logo d-flex align-items-center">
             @php
-                // Always show the platform logo in the navbar; the company logo is reserved for reports.
-                $logoPath = asset('site/assets/logo-white.png');
+                // Show the company logo uploaded from settings; fall back to the platform logo as the default.
+                $company = currentCompany();
+                $logoPath = $company && $company->logo ? $company->logo_url : asset('site/assets/logo-white.png');
             @endphp
             <img src="{{ $logoPath }}" alt="{{ $settings['title'] ?? __('owner.generated.item_bc71f8') }}"
                 style="height: 120px; width: auto; object-fit: contain;">
