@@ -13,7 +13,10 @@ Route::group([
     'prefix' => LaravelLocalization::setLocale(),
     'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath'],
 ], function () {
-    Route::get('/', [LandingPageController::class, 'index'])->name('landing-page');
+    Route::get('/', function () {
+        return redirect()->route('frontend.show_login_form');
+    })->name('landing-page');
+    Route::get('/home', [LandingPageController::class, 'index'])->name('site.home');
     Route::get('/about', [LandingPageController::class, 'about'])->name('site.about');
     Route::get('/pricing', [LandingPageController::class, 'pricing'])->name('site.pricing');
     Route::get('/contact', [LandingPageController::class, 'contact'])->name('site.contact');

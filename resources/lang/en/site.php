@@ -41,6 +41,7 @@ return [
     ],
     'login' => [
         'title' => 'Login',
+        'subtitle' => 'Sign in to your account to continue.',
         'no_account' => "Don't have an account?",
         'create_account' => 'Create your account now!',
         'email' => 'Email',
