@@ -255,7 +255,7 @@ class AdminController extends Controller
 
     private function getCompanySettings()
     {
-        $companyName = Setting::where('key', 'site_name')->value('value') ?? 'حسبة';
+        $companyName = Setting::where('key', 'site_name')->value('value') ?? 'ifish';
 
         return [
             'name' => $companyName,

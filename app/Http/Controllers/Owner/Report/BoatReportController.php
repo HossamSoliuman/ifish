@@ -41,7 +41,7 @@ class BoatReportController extends Controller
 
         // QR payload and image using same TLV approach as other reports
         $qrPayload = [
-            'seller_name' => $settings['title'] ?? 'حسبة',
+            'seller_name' => $settings['title'] ?? 'ifish',
             'timestamp' => now()->toIso8601String(),
             'total' => number_format((float) ($statistics['total_boats'] ?? 0), 2, '.', ''),
         ];

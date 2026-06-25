@@ -103,7 +103,7 @@ class FishHistoryReportController extends Controller
         $totalRemainingWeight = $latestRemainingWeights->sum('remaining_weight');
 
         $settings = [
-            'title' => \App\Models\Setting::where('key', 'site_name')->value('value') ?? 'حسبة',
+            'title' => \App\Models\Setting::where('key', 'site_name')->value('value') ?? 'ifish',
             'address' => \App\Models\Setting::where('key', 'address')->value('value') ?? '',
             'phone' => \App\Models\Setting::where('key', 'phone')->value('value') ?? '',
             'email' => \App\Models\Setting::where('key', 'email')->value('value') ?? '',

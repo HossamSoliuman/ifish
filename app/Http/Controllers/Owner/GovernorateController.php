@@ -52,7 +52,7 @@ class GovernorateController extends Controller
         $total = $governorates->count();
         $active = $governorates->where('status', 1)->count();
 
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
         $settings = ownerCompanySettings([
             'qr_code' => app(\App\Service\Owner\ReportQrService::class)->dataUri("Company: {$companyName}"),
         ]);

@@ -143,7 +143,7 @@ class SalesController extends Controller
      */
     private function reportSettings(): array
     {
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
 
         return ownerCompanySettings([
             'qr_code' => app(\App\Service\Owner\ReportQrService::class)->dataUri("Company: {$companyName}"),

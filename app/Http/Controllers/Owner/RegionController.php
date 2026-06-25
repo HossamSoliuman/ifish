@@ -48,7 +48,7 @@ class RegionController extends Controller
         $active = $regions->where('status', 1)->count();
 
         // get basic company settings for report header
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
         $settings = ownerCompanySettings([
             'qr_code' => app(\App\Service\Owner\ReportQrService::class)->dataUri("Company: {$companyName}"),
         ]);

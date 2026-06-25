@@ -256,7 +256,7 @@ class CatchController extends Controller
             ->with(['trip', 'trip.boat', 'details.fish', 'details.unit'])
             ->findOrFail($id);
 
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
         $settings = ownerCompanySettings([
             'qr_code' => app(\App\Service\Owner\ReportQrService::class)->dataUri("Company: {$companyName}"),
         ]);
@@ -305,7 +305,7 @@ class CatchController extends Controller
             'avg_price_per_kg' => $totalWeight > 0 ? $totalRevenue / $totalWeight : 0,
         ];
 
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
         $settings = ownerCompanySettings([
             'qr_code' => app(\App\Service\Owner\ReportQrService::class)->dataUri("Company: {$companyName}"),
         ]);

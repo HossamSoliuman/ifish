@@ -118,7 +118,7 @@ class FishHistoryReportController extends Controller
 
     private function getCompanySettings(): array
     {
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
 
         return ownerCompanySettings([
             'qr_code' => $this->generateQRCodeImage($companyName),

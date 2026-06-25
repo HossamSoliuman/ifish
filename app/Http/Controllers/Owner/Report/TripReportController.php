@@ -127,7 +127,7 @@ class TripReportController extends Controller
 
         // Generate QR code payload (TLV) and image using Dalal controller pattern
         $qrPayload = [
-            'seller_name' => $settings['title'] ?? 'حسبة',
+            'seller_name' => $settings['title'] ?? 'ifish',
             'timestamp' => now()->toIso8601String(),
             'total' => number_format((float) ($statistics['total_revenue'] ?? 0), 2, '.', ''),
         ];

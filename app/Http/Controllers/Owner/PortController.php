@@ -54,7 +54,7 @@ class PortController extends Controller
         $total = $ports->count();
         $active = $ports->where('status', 1)->count();
 
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
         $settings = ownerCompanySettings([
             'qr_code' => app(\App\Service\Owner\ReportQrService::class)->dataUri("Company: {$companyName}"),
         ]);

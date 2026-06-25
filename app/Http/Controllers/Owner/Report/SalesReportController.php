@@ -98,7 +98,7 @@ class SalesReportController extends Controller
      */
     private function generateQRCodeImage(): ?string
     {
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
 
         return app(\App\Service\Owner\ReportQrService::class)
             ->dataUri("Company: {$companyName}");

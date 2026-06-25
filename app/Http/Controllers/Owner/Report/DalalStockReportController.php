@@ -105,7 +105,7 @@ class DalalStockReportController extends Controller
 
     private function generateQRCodeImage()
     {
-        $companyName = currentCompany()?->name ?: 'حسبة';
+        $companyName = currentCompany()?->name ?: 'ifish';
 
         $qrData = "Company: {$companyName}";
 
