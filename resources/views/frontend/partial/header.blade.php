@@ -28,10 +28,10 @@
 					<span class="brand-img">
 <span class="brand-img-text text-theme">
     <img src="{{ isset($settings['logo']) ? asset($settings['logo']) : asset('default-logo.png') }}"
-         alt="{{ $settings['title'] ?? 'حسبة' }}">
+         alt="{{ $settings['title'] ?? 'ifish' }}">
 </span>
 					</span>
-            <span class="brand-text">{{ $settings['title'] ?? 'حسبة' }}</span>
+            <span class="brand-text">{{ $settings['title'] ?? 'ifish' }}</span>
         </a>
     </div>
     <!-- END brand -->

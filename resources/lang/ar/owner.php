@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'حسبة',
+    'title' => 'ifish',
     'menu' => [
         'dashboard' => 'لوحة التحكم',
         'month_closing' => 'الإقفال الشهري',
@@ -2703,9 +2703,9 @@ return [
         'add' => 'إضافة',
         'name_ar' => 'الاسم بالعربية',
         'name_en' => 'الاسم بالإنجليزية',
-        'meta_desc_hasbah' => 'description" content="حسبة - الحل الأمثل لإدارة مشاريعك ومتابعة أعصيّاد بسهولة',
-        'meta_author' => 'author" content="حسبة',
-        'meta_keywords' => 'keywords" content="حسبة, حسبة, إدارة مشاريع, تطبيق ويب',
+        'meta_desc_hasbah' => 'description" content="ifish - الحل الأمثل لإدارة مشاريعك ومتابعة أعصيّاد بسهولة',
+        'meta_author' => 'author" content="ifish',
+        'meta_keywords' => 'keywords" content="ifish, ifish, إدارة مشاريع, تطبيق ويب',
         'cities' => 'المدن',
         'manage_cities' => 'ضبط المدن',
         'add_btn' => 'اضافة',
@@ -3051,7 +3051,7 @@ return [
         'item_5bbe0a' => 'نوع المستقبل',
         'item_9bc7a8' => 'موضوع الاشعار',
         'item_9a7556' => 'يرجى تعبئة الحقول المطلوبة بشكل صحيح',
-        'item_bc71f8' => 'حسبة',
+        'item_bc71f8' => 'ifish',
         'item_110806' => 'جميع الحقوق محفوظة',
         'item_57b5f1' => 'الأرباح والخسائر',
         'item_04abd3' => 'مدفوعة',

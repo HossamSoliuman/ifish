@@ -14,7 +14,7 @@
                     // Use the same locale-specific logo approach as admin dashboard
                     $logoPath = $locale === 'ar' ? asset('logo/arabic/main.png') : asset('logo/english/main.png');
                 @endphp
-                <img src="{{ $logoPath }}" alt="{{ $settings['title'] ?? 'حسبة' }}"
+                <img src="{{ $logoPath }}" alt="{{ $settings['title'] ?? 'ifish' }}"
                     style="height: 120px; width: auto; object-fit: contain;">
             </span>
         </a>

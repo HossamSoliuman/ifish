@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'title' => 'Hasbah',
+  'title' => 'ifish',
   'menu' => 
   array (
     'dashboard' => 'Dashboard',
@@ -4645,9 +4645,9 @@ return array (
     'add' => 'Add',
     'name_ar' => 'Name Ar',
     'name_en' => 'Name En',
-    'meta_desc_hasbah' => 'Hasbah - The best solution to manage your operations with ease.',
-    'meta_author' => 'Hasbah',
-    'meta_keywords' => 'Hasbah, management, fishing, subscriptions, invoices, trips',
+    'meta_desc_hasbah' => 'ifish - The best solution to manage your operations with ease.',
+    'meta_author' => 'ifish',
+    'meta_keywords' => 'ifish, management, fishing, subscriptions, invoices, trips',
     'cities' => 'Cities',
     'manage_cities' => 'Manage Cities',
     'add_btn' => 'Add Btn',
@@ -4990,7 +4990,7 @@ return array (
     'item_5bbe0a' => 'Recipient Type',
     'item_9bc7a8' => 'Notification Subject',
     'item_9a7556' => 'Please fill required fields correctly',
-    'item_bc71f8' => 'Hasbah',
+    'item_bc71f8' => 'ifish',
     'item_110806' => 'All Rights Reserved',
     'item_57b5f1' => 'Profit and Loss',
     'item_04abd3' => 'Paid',

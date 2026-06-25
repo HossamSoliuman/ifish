@@ -77,7 +77,7 @@
         <!-- END div-hero-content -->
 
         <div class="position-absolute top-0 bottom-0 end-0 w-50 p-5 z-2 overflow-hidden d-lg-flex align-items-center d-none">
-            <img class="w-100 d-block" alt="حسبة Project" src="{{asset('dashboard/assets/img/ai/cover-page.png')}}">
+            <img class="w-100 d-block" alt="ifish Project" src="{{asset('dashboard/assets/img/ai/cover-page.png')}}">
         </div>
     </div>
     <!-- END container -->

@@ -1,6 +1,6 @@
 @extends('frontend.layouts.master-auth')
 @section('title')
-    حسبة | تسجيل جديد
+    ifish | تسجيل جديد
 @endsection
 @section('css')
     <style>
@@ -23,7 +23,7 @@
                         ? asset('logo/arabic/main.png')
                         : asset('logo/english/main.png');
                 @endphp
-                <img src="{{ $logoPath }}" alt="{{ $settings['title'] ?? 'حسبة' }}" style="height: 200px; width: auto; margin:auto;display:block;">
+                <img src="{{ $logoPath }}" alt="{{ $settings['title'] ?? 'ifish' }}" style="height: 200px; width: auto; margin:auto;display:block;">
 
                 <h1 class="text-center">تسجيل جديد</h1>
                 <div class="text-inverse text-opacity-50 text-center mb-4">

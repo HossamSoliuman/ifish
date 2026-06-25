@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Hasbah',
+    'title' => 'ifish',
     'menu' => [
         'dashboard' => 'Dashboard',
         'month_closing' => 'Monthly Closing',
@@ -2705,7 +2705,7 @@ return [
         'add' => 'Add',
         'name_ar' => 'Name Ar',
         'name_en' => 'Name En',
-        'meta_desc_hasbah' => 'Meta Desc Hasbah',
+        'meta_desc_hasbah' => 'Meta Desc ifish',
         'meta_author' => 'Meta Author',
         'meta_keywords' => 'Meta Keywords',
         'cities' => 'Cities',
@@ -3053,7 +3053,7 @@ return [
         'item_5bbe0a' => 'Recipient Type',
         'item_9bc7a8' => 'Notification Subject',
         'item_9a7556' => 'Please fill required fields correctly',
-        'item_bc71f8' => 'Hasbah',
+        'item_bc71f8' => 'ifish',
         'item_110806' => 'All Rights Reserved',
         'item_57b5f1' => 'Profit and Loss',
         'item_04abd3' => 'Paid',

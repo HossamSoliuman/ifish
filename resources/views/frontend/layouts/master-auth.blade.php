@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="حسبة - الحل الأمثل لإدارة مشاريعك ومتابعة أعمالك بسهولة" />
-    <meta name="author" content="حسبة" />
-    <meta name="keywords" content="حسبة, حسبة, إدارة مشاريع, تطبيق ويب" />
+    <meta name="description" content="ifish - الحل الأمثل لإدارة مشاريعك ومتابعة أعمالك بسهولة" />
+    <meta name="author" content="ifish" />
+    <meta name="keywords" content="ifish, ifish, إدارة مشاريع, تطبيق ويب" />
     <link rel="icon" href="{{ asset('storage/uploads/favicon.ico') }}" type="image/x-icon" />
 
     <!-- ================== BEGIN core-css ================== -->

@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'title' => 'حسبة',
+  'title' => 'ifish',
   'menu' => 
   array (
     'dashboard' => 'لوحة التحكم',
@@ -4715,9 +4715,9 @@ return array (
     'add' => 'إضافة',
     'name_ar' => 'الاسم بالعربية',
     'name_en' => 'الاسم بالإنجليزية',
-    'meta_desc_hasbah' => 'حسبة - الحل الأمثل لإدارة أعمالك وإدارة الصيد بسهولة.',
-    'meta_author' => 'حسبة',
-    'meta_keywords' => 'حسبة, Hasbah, إدارة, صيد, اشتراكات, فواتير, رحلات',
+    'meta_desc_hasbah' => 'ifish - الحل الأمثل لإدارة أعمالك وإدارة الصيد بسهولة.',
+    'meta_author' => 'ifish',
+    'meta_keywords' => 'ifish, ifish, إدارة, صيد, اشتراكات, فواتير, رحلات',
     'cities' => 'المدن',
     'manage_cities' => 'ضبط المدن',
     'add_btn' => 'اضافة',
@@ -5060,7 +5060,7 @@ return array (
     'item_5bbe0a' => 'نوع المستقبل',
     'item_9bc7a8' => 'موضوع الاشعار',
     'item_9a7556' => 'يرجى تعبئة الحقول المطلوبة بشكل صحيح',
-    'item_bc71f8' => 'حسبة',
+    'item_bc71f8' => 'ifish',
     'item_110806' => 'جميع الحقوق محفوظة',
     'item_57b5f1' => 'الأرباح والخسائر',
     'item_04abd3' => 'مدفوعة',

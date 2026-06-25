@@ -62,7 +62,7 @@
         <div class="row">
             <div class="col-sm-12 mb-3 mb-lg-0">
                 <div class="footer-copyright-text">
-                    &copy; {{$settings['title'] ?? "حسبة"}}
+                    &copy; {{$settings['title'] ?? "ifish"}}
                     {{ date('Y') }}. {{__('landing-page.footer.copyright')}}
                 </div>
             </div>

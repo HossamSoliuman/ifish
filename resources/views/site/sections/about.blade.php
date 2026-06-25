@@ -10,7 +10,7 @@
                 <div class="md:col-span-4">
                     <div class="relative mx-auto w-full max-w-[420px] rounded-3xl bg-white p-3 shadow-sm">
                         <div class="overflow-hidden rounded-2xl">
-                            <img src="{{ asset('site/assets/hesba1.png') }}" alt="Hesba" class="h-auto w-full object-cover" draggable="false" />
+                            <img src="{{ asset('site/assets/hesba1.png') }}" alt="ifish" class="h-auto w-full object-cover" draggable="false" />
                         </div>
                     </div>
                 </div>
@@ -36,7 +36,7 @@
                 <div class="md:col-span-4 md:col-start-7 md:order-2">
                     <div class="relative mx-auto w-full max-w-[460px] rounded-3xl bg-white p-3 shadow-sm">
                         <div class="overflow-hidden rounded-2xl">
-                            <img src="{{ asset('site/assets/hesba2.png') }}" alt="Hesba" class="h-auto w-full object-cover" draggable="false" />
+                            <img src="{{ asset('site/assets/hesba2.png') }}" alt="ifish" class="h-auto w-full object-cover" draggable="false" />
                         </div>
                     </div>
                 </div>

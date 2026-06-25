@@ -1,4 +1,4 @@
 <div id="footer" class="app-footer">
-    © {{date('Y')}} {{ $settings['title'] ?? 'حسبة' }} جميع الحقوق محفوظة
+    © {{date('Y')}} {{ $settings['title'] ?? 'ifish' }} جميع الحقوق محفوظة
 </div>
 

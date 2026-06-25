@@ -5,7 +5,7 @@
             <div class="col-md-8 d-flex justify-content-center align-items-center">
                 <div class="w-100 text-center">
                     <img src="{{ asset('dashboard/assets/img/landing/hawat-phones.png') }}"
-                        alt="تطبيق حسبة على الهواتف"
+                        alt="تطبيق ifish على الهواتف"
                         class="img-fluid"
                         style="
                             max-width: 600px;
@@ -20,7 +20,7 @@
             <div class="col-md-4 d-flex flex-column align-items-start text-start gap-3 px-2">
 
                 <img src="{{ asset('dashboard/assets/img/logo/logo.png') }}"
-                    alt="حسبة"
+                    alt="ifish"
                     class="img-fluid"
                     style="width: 120px; height: 120px; border-radius: 20px; box-shadow: 4px 8px 10px rgba(0,0,0,0.2);">
 

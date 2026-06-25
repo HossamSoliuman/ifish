@@ -2,11 +2,11 @@
 <html lang="ar" dir="rtl" data-bs-theme="light">
 <head>
     <meta charset="utf-8">
-    <title>منصة الحسبة | @yield('title')</title>
+    <title>منصة ifish | @yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="حسبة - الحل الأمثل لإدارة مشاريعك ومتابعة أعصيّاد بسهولة" />
-    <meta name="author" content="حسبة" />
-    <meta name="keywords" content="حسبة, حسبة, إدارة مشاريع, تطبيق ويب" />
+    <meta name="description" content="ifish - الحل الأمثل لإدارة مشاريعك ومتابعة أعصيّاد بسهولة" />
+    <meta name="author" content="ifish" />
+    <meta name="keywords" content="ifish, ifish, إدارة مشاريع, تطبيق ويب" />
     <link rel="icon" href="{{ asset('storage/uploads/favicon.ico') }}" type="image/x-icon" />
     <meta name="csrf-token" content="{{ csrf_token() }}">
 

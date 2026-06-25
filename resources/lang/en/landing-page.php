@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'حسبة',
+    'title' => 'ifish',
     'header' => [
         'home' => 'Home',
         'about' => 'About',
@@ -12,9 +12,9 @@ return [
         'register' => 'Register',
     ],
     'home' => [
-        'title' => 'حسبة – Automation and Management of Fishery Operations in the Kingdom of Saudi Arabia',
+        'title' => 'ifish – Automation and Management of Fishery Operations in the Kingdom of Saudi Arabia',
         'description' => 'A comprehensive system aimed at improving the efficiency of fishing operations and facilitating the management of marine resources in Saudi Arabia.',
-        'description_2' => 'حسبة provides advanced digital tools to support fishermen, streamline administrative and logistical tasks, and monitor production.',
+        'description_2' => 'ifish provides advanced digital tools to support fishermen, streamline administrative and logistical tasks, and monitor production.',
         'cta' => 'Start Using the System',
         'stats' => [
             'operations' => '+1.8k',
@@ -24,8 +24,8 @@ return [
         ],
     ],
     'about' => [
-        'title' => 'About حسبة Project',
-        'description' => 'حسبة Project is a comprehensive digital platform aimed at automating and monitoring maritime fishing operations in Saudi Arabia, from boat departure to fish sales, ensuring transparency, efficiency, and digital integration among stakeholders.',
+        'title' => 'About ifish Project',
+        'description' => 'ifish Project is a comprehensive digital platform aimed at automating and monitoring maritime fishing operations in Saudi Arabia, from boat departure to fish sales, ensuring transparency, efficiency, and digital integration among stakeholders.',
         'sections' => [
             'vision' => [
                 'title' => 'Vision',
@@ -54,8 +54,8 @@ return [
         ],
     ],
     'features' => [
-        'title' => 'حسبة Platform Features',
-        'description' => 'Here is an overview of the main components and advantages of the حسبة system. The platform provides a complete digital experience to efficiently manage and track maritime fishing operations.',
+        'title' => 'ifish Platform Features',
+        'description' => 'Here is an overview of the main components and advantages of the ifish system. The platform provides a complete digital experience to efficiently manage and track maritime fishing operations.',
         'items' => [
             'dashboard' => 'Main Dashboard',
             'boats_tracking' => 'Boats Tracking Interface',
@@ -69,13 +69,13 @@ return [
     ],
     'contact' => [
         'title' => 'Contact Us',
-        'description' => 'Get in touch with the حسبة team today to see how we can assist you.
+        'description' => 'Get in touch with the ifish team today to see how we can assist you.
 Whether you have inquiries, need technical support, or want to collaborate with us,
 we are always at your service. Contact us and let\'s start the conversation!',
         'project_question' => 'Do you have a project or idea you want to discuss?',
-        'project_text' => 'The حسبة team is ready to help you achieve your digital goals.
+        'project_text' => 'The ifish team is ready to help you achieve your digital goals.
 Share your ideas or ask about our services, and we will respond quickly.',
-        'platform' => 'حسبة Platform',
+        'platform' => 'ifish Platform',
         'location' => 'Riyadh - Saudi Arabia',
         'working_hours' => 'Working Hours:',
         'working_days' => 'Sunday to Thursday: 9:00 AM - 5:00 PM',
@@ -99,18 +99,18 @@ Share your ideas or ask about our services, and we will respond quickly.',
         ],
     ],
     'footer' => [
-        'platform_name' => 'حسبة',
-        'description' => 'حسبة is your ideal platform for creating advanced, responsive, and high-performance web applications. We provide flexible tools suitable for developers, designers, and project owners to achieve their digital visions easily and effectively.',
+        'platform_name' => 'ifish',
+        'description' => 'ifish is your ideal platform for creating advanced, responsive, and high-performance web applications. We provide flexible tools suitable for developers, designers, and project owners to achieve their digital visions easily and effectively.',
         'follow_us' => 'Follow us on',
         'pages' => 'Pages',
         'help_center' => 'Help Center',
         'support_center' => 'Technical Support Center',
-        'copyright' => 'All rights reserved. حسبة is a registered trademark of Dar Al Hout Trading.',
+        'copyright' => 'All rights reserved. ifish is a registered trademark of Dar Al Hout Trading.',
         'download_app' => 'Download the app',
         'available_on_mobile' => 'Available on mobile',
     ],
     'achievements' => [
-        'title' => 'حسبة Digital Achievements',
+        'title' => 'ifish Digital Achievements',
         'description' => 'A successful digital journey towards developing the fishing sector and enhancing digital transformation in marine resource management.',
 
         'users' => 'Registered Users on the Platform',
@@ -128,8 +128,8 @@ Share your ideas or ask about our services, and we will respond quickly.',
         'register_now' => 'Register Now',
     ],
     'roles' => [
-        'title' => 'Operational Roles in the حسبة System',
-        'description' => 'The حسبة system includes four main categories that complement each other within the smart fisheries management ecosystem. Each role contributes to process management, data documentation, and ensuring transparency from the start of the journey until the sale of the catch.',
+        'title' => 'Operational Roles in the ifish System',
+        'description' => 'The ifish system includes four main categories that complement each other within the smart fisheries management ecosystem. Each role contributes to process management, data documentation, and ensuring transparency from the start of the journey until the sale of the catch.',
         'fisherman' => 'Fisherman',
         'fisherman_desc' => 'Carries out fishing operations on the ground, records the caught quantities, and submits daily reports to ensure data accuracy and quality.',
         'counter' => 'Counter',
@@ -143,6 +143,6 @@ Share your ideas or ask about our services, and we will respond quickly.',
 
     ],
 
-    'app_name' => 'حسبة App',
+    'app_name' => 'ifish App',
     'app_description' => 'Sale process, loading through',
 ];

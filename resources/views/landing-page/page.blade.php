@@ -7,11 +7,11 @@
     <head>
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>{{ $settings['title'] ?? 'حسبة' }}</title>
+        <title>{{ $settings['title'] ?? 'ifish' }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="حسبة - الحل الأمثل لإدارة مشاريعك ومتابعة أعصيّاد بسهولة" />
-        <meta name="author" content="حسبة" />
-        <meta name="keywords" content="حسبة, حسبة, إدارة مشاريع, تطبيق ويب" />
+        <meta name="description" content="ifish - الحل الأمثل لإدارة مشاريعك ومتابعة أعصيّاد بسهولة" />
+        <meta name="author" content="ifish" />
+        <meta name="keywords" content="ifish, ifish, إدارة مشاريع, تطبيق ويب" />
         <link rel="icon" href="{{ asset('storage/uploads/favicon.ico') }}" type="image/x-icon" />
     </head>
 
@@ -61,7 +61,7 @@
                 <!-- END div-hero-content -->
 
                 <div class="position-absolute top-0 bottom-0 end-0 w-50 p-5 z-2 overflow-hidden d-lg-flex align-items-center d-none">
-                    <img class="w-100 d-block" alt="حسبة Project" src="{{asset('dashboard/assets/img/ai/cover-page.png')}}">
+                    <img class="w-100 d-block" alt="ifish Project" src="{{asset('dashboard/assets/img/ai/cover-page.png')}}">
                 </div>
             </div>
             <!-- END container -->
