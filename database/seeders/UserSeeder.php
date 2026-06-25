@@ -27,10 +27,10 @@ class UserSeeder extends Seeder
         // captain/counter/dalal/gov are data columns (users.role) managed within
         // the owner panel — they have no dedicated route panel of their own.
         $owner = User::create([
-            'name' => 'Owner User',
-            'email' => 'owner@example.com',
+            'name' => 'Alhuwat',
+            'email' => 'alhuwat@gmail.com',
             'phone' => '0500000001',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('123456'),
             'role' => 'owner',
             'status' => 1,
         ]);
