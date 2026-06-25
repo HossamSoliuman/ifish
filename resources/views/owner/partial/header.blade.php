@@ -28,9 +28,8 @@
     <div class="brand">
         <a href="{{ route('owner.dashboard') }}" class="brand-logo d-flex align-items-center">
             @php
-                $locale = app()->getLocale();
                 // Always show the platform logo in the navbar; the company logo is reserved for reports.
-                $logoPath = $locale === 'ar' ? asset('logo/arabic/main.png') : asset('logo/english/main.png');
+                $logoPath = asset('site/assets/logo-white.png');
             @endphp
             <img src="{{ $logoPath }}" alt="{{ $settings['title'] ?? __('owner.generated.item_bc71f8') }}"
                 style="height: 120px; width: auto; object-fit: contain;">
